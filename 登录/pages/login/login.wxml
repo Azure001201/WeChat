@@ -1,0 +1,27 @@
+<view class="container">
+	<image class="logo" src="../../static/img/logo.png"></image>
+	<!-- 登录界面 -->
+	<view class="loginview">
+		<!-- 账号  -->
+		<view class="username">
+			<text class="iconfont  icon-wode">学号</text>
+			<input class="inputtext" type="number" placeholder="请输入学号" maxlength="12" bindblur="showusername" />
+		</view>
+		<!-- 密码 -->
+		<view class="password">
+			<text class="iconfont icon-yanzhengma">密码</text>
+			<input class="inputtext" password="true" bindblur="showpsw" placeholder="请输入密码" maxlength="12"/>
+		</view>
+		<!-- 勾选框 -->
+		<view class="checkboxes">
+			<checkbox class="checkuser" value="">记住账户</checkbox>
+			<checkbox class="checkpsw" value="">记住密码</checkbox>
+		</view>
+		<view class="bottom">
+		<!-- 确认登录按钮 颜色设置为绿色 写入点击事件login-->
+			<button class="loginBtn" type="primary" bindtap="login">登录</button>
+		<!-- 注册按钮 写入点击事件toregister-->
+			<button class="register" catchtap="toregister">注册</button>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,19 @@
+<view class="container">
+	<text class="tittle">注册</text>
+	<view class="registerview">
+<!-- 用户名框 -->
+		<view class="username">
+			<text>用户名：</text>
+			<input class="inputtext" type="number" placeholder="请输入要注册的学号" bindblur="usernameinput" maxlength="12"></input>
+		</view>
+		<!-- 密码框 -->
+		<view class="password">
+			<text>密码：</text>
+			<input class="inputtext" password="true" placeholder="请输入密码" bindblur="pswinput" maxlength="12"></input>
+		</view>
+		<!-- 提示信息 -->
+		<text class="tips">密码最多12位哦！</text>
+			<!-- 注册按钮 -->
+			<button class="bottom"  bindtap="register">注册</button>
+	</view>
+</view>

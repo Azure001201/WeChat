@@ -1,0 +1,11 @@
+<view>
+	<view>
+		<text>登录成功啦</text>
+	</view>
+	<view>
+		<text class="iconfont icon-construction" ></text>
+	</view>
+	<view>
+		<text>但是后面的界面程序员还在施工中</text>
+	</view>
+</view>

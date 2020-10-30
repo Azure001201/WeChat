@@ -1,0 +1,67 @@
+/* 设置背景 */
+.container {
+  /* 通过控制内边距让logo图片处于一个比较舒服的位置,同时控制底下的组件的位置 */
+  padding: 0;
+  padding-top: 150rpx;
+  /* 设置图片平铺以达到自适应屏幕大小 */
+  background-size: cover;
+  /* 插入背景图片 */
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1603906794625&di=047edfe2fcc77ada3180345c0bf39909&imgtype=0&src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201708%2F16%2F013425jmbbbj5vvv1lmnn7.png.thumb.jpg);
+}
+/* 设置logo的样式 */
+.logo {
+  width: 750rpx;
+  height: 100rpx;
+}
+
+.loginview {
+  /* 控制账号密码输入框位置 */
+  flex: auto;
+  margin-top: 35%;
+  /* 控制字体大小 */
+  font-size: 24px;
+  /* 设置输入框大小 */
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+text {
+  /* 使得账号密码及icon在左边 */
+  float: left;
+  /* 设置背景颜色 */
+  background: #AFF; opacity: 0.6;
+}
+
+.inputtext {
+  /* 设置行高以及背景颜色 */
+  height: 60rpx;
+  background: #bfa; opacity: 0.6;
+}
+.username,
+.password {
+  /* 设置边框 */
+  border: 2px solid whitesmoke;
+}
+
+.passwo{
+  /* 减少一条线，让账号和密码中间的分界变的只有1px */
+  border-top: 0px;
+}
+/* 选择框 */
+.checkboxes{
+  font-size: 22px;
+  font-weight: bold;
+  color: navy;
+}
+.checkpsw{
+  /* 隔开记住密码和记住账户 */
+  padding-left: 150rpx;
+}
+.bottom{
+  /* 隔开登录与输入框 */
+  margin-top: 25%;
+}
+.register{
+ /* 隔开注册按钮和登录按钮 */
+  margin-top: 20px;
+}

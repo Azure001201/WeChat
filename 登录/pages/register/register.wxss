@@ -1,0 +1,39 @@
+.inputtext {
+  background-color: whitesmoke;
+  flex: auto;
+  /* 控制字体大小 */
+  font-size: 24px;
+  /* 设置输入框高度大小 */
+  height: 60rpx;
+  line-height: 60rpx;
+  /* 设置输入框边框 */
+  border: black 2px solid;
+}
+
+.tittle {
+  font-size: 50px;
+  color: skyblue;
+  font-weight: bold;
+}
+
+.bottom {
+  margin-top: 200rpx;
+}
+
+text {
+  /* 控制下面的文字向上移动顶着输入框一起移动 */
+  margin-bottom: 40%;
+  font-size: 26px;
+  color: white;
+
+}
+
+.tips {
+  font-size: 18px;
+}
+
+.container {
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604043319215&di=0134dd254e124a407a5652473dbe2426&imgtype=0&src=http%3A%2F%2Fbos.pgzs.com%2Frbpiczy%2FWallpaper%2F2013%2F2%2F3%2F897cadfc9409480db13ab11f6f61be21-4.jpg);
+  /* 设置图片平铺以达到自适应屏幕大小 */
+  background-size: cover;
+}

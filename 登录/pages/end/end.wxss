@@ -1,0 +1,10 @@
+view{
+  text-align: center;
+}
+text{
+  font-size: 100rpx;
+}
+.iconfont{
+  font-size: 500rpx;
+  color: chocolate;
+}
